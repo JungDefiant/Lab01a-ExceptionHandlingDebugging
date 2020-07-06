@@ -10,3 +10,4 @@ The purpose of this program is to demonstrate exception handling through a simpl
 5. Pick a number to divide the resulting product. The program will return a quotient and then exit.
 
 ## What does the program look like?
+![Preview of program](https://github.com/JungDefiant/Lab01a-ExceptionHandlingDebugging/blob/master/lab01a-screen.png)
