@@ -1,0 +1,13 @@
+C:\Users\bjhab\codefellows\401\Lab01a-ExceptionHandlingDebugging\ExceptionHandlingDebugging\bin\Debug\netcoreapp3.1\ExceptionHandlingDebugging.exe
+C:\Users\bjhab\codefellows\401\Lab01a-ExceptionHandlingDebugging\ExceptionHandlingDebugging\bin\Debug\netcoreapp3.1\ExceptionHandlingDebugging.deps.json
+C:\Users\bjhab\codefellows\401\Lab01a-ExceptionHandlingDebugging\ExceptionHandlingDebugging\bin\Debug\netcoreapp3.1\ExceptionHandlingDebugging.runtimeconfig.json
+C:\Users\bjhab\codefellows\401\Lab01a-ExceptionHandlingDebugging\ExceptionHandlingDebugging\bin\Debug\netcoreapp3.1\ExceptionHandlingDebugging.runtimeconfig.dev.json
+C:\Users\bjhab\codefellows\401\Lab01a-ExceptionHandlingDebugging\ExceptionHandlingDebugging\bin\Debug\netcoreapp3.1\ExceptionHandlingDebugging.dll
+C:\Users\bjhab\codefellows\401\Lab01a-ExceptionHandlingDebugging\ExceptionHandlingDebugging\bin\Debug\netcoreapp3.1\ExceptionHandlingDebugging.pdb
+C:\Users\bjhab\codefellows\401\Lab01a-ExceptionHandlingDebugging\ExceptionHandlingDebugging\obj\Debug\netcoreapp3.1\ExceptionHandlingDebugging.csprojAssemblyReference.cache
+C:\Users\bjhab\codefellows\401\Lab01a-ExceptionHandlingDebugging\ExceptionHandlingDebugging\obj\Debug\netcoreapp3.1\ExceptionHandlingDebugging.AssemblyInfoInputs.cache
+C:\Users\bjhab\codefellows\401\Lab01a-ExceptionHandlingDebugging\ExceptionHandlingDebugging\obj\Debug\netcoreapp3.1\ExceptionHandlingDebugging.AssemblyInfo.cs
+C:\Users\bjhab\codefellows\401\Lab01a-ExceptionHandlingDebugging\ExceptionHandlingDebugging\obj\Debug\netcoreapp3.1\ExceptionHandlingDebugging.csproj.CoreCompileInputs.cache
+C:\Users\bjhab\codefellows\401\Lab01a-ExceptionHandlingDebugging\ExceptionHandlingDebugging\obj\Debug\netcoreapp3.1\ExceptionHandlingDebugging.dll
+C:\Users\bjhab\codefellows\401\Lab01a-ExceptionHandlingDebugging\ExceptionHandlingDebugging\obj\Debug\netcoreapp3.1\ExceptionHandlingDebugging.pdb
+C:\Users\bjhab\codefellows\401\Lab01a-ExceptionHandlingDebugging\ExceptionHandlingDebugging\obj\Debug\netcoreapp3.1\ExceptionHandlingDebugging.genruntimeconfig.cache

@@ -21,7 +21,14 @@ namespace ExceptionHandlingDebugging
             // Specific exceptions only defined once
             // NO GLOBAL VARIABLES
             
-            Console.WriteLine("Hello World!");
+            try
+            {
+                StartSequence();
+            }
+            catch(Exception)
+            {
+                Console.WriteLine("Exception thrown!");
+            }
         }
 
         static void StartSequence()
@@ -116,6 +123,7 @@ namespace ExceptionHandlingDebugging
                 }
 
                 if (sum < 20) throw new Exception();
+                Console.WriteLine($"Sum is {sum}.");
             }
             catch(Exception)
             {
@@ -147,6 +155,7 @@ namespace ExceptionHandlingDebugging
                 int index = Convert.ToInt32(Console.ReadLine()) - 1;
 
                 product = sum * array[index];
+                Console.WriteLine($"Product is {product}.");
             }
             catch(IndexOutOfRangeException)
             {
@@ -180,6 +189,7 @@ namespace ExceptionHandlingDebugging
                 int num = Convert.ToInt32(Console.ReadLine());
 
                 quotient = decimal.Divide(num, product);
+                Console.WriteLine($"Quotient is {quotient}.");
             }
             catch (DivideByZeroException)
             {
