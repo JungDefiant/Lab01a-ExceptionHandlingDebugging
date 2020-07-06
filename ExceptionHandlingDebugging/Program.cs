@@ -115,12 +115,14 @@ namespace ExceptionHandlingDebugging
                     sum += array[i];
                 }
 
-                return sum;
+                if (sum < 20) throw new Exception();
             }
-            catch
+            catch(Exception)
             {
                 Console.WriteLine($"Value of {sum} is too low.");
             }
+
+            return sum;
         }
 
         static int GetProduct(int[] array, int sum)
@@ -137,7 +139,22 @@ namespace ExceptionHandlingDebugging
                 >> Throw it back down the callstack so that it displays within Main
             */
 
-            return 0;
+            int product = 1;
+
+            try
+            {
+                Console.WriteLine($"Enter a number between 1 and {array.Length}.");
+                int index = Convert.ToInt32(Console.ReadLine()) - 1;
+
+                product = sum * array[index];
+            }
+            catch(IndexOutOfRangeException)
+            {
+                Console.WriteLine("Index out of range!");
+                throw new IndexOutOfRangeException();
+            }
+
+            return product;
         }
 
         static decimal GetQuotient(int product)
@@ -155,7 +172,22 @@ namespace ExceptionHandlingDebugging
                 >> Return 0 if the catch gets called
             */
 
-            return 0;
+            decimal quotient = 0;
+
+            try
+            {
+                Console.WriteLine($"Enter a number to divide the product {product} by.");
+                int num = Convert.ToInt32(Console.ReadLine());
+
+                quotient = decimal.Divide(num, product);
+            }
+            catch (DivideByZeroException)
+            {
+                Console.WriteLine("ERROR: Divided by zero!");
+                return 0;
+            }
+
+            return quotient;
         }
 
     }
