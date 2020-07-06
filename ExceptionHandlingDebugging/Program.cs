@@ -16,6 +16,10 @@ namespace ExceptionHandlingDebugging
             {
                 Console.WriteLine("Exception thrown!");
             }
+            finally
+            {
+                Console.WriteLine("Program completed!");
+            }
         }
 
         static void StartSequence()
