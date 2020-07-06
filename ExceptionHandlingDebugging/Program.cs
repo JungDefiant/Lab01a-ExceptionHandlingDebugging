@@ -125,7 +125,7 @@ namespace ExceptionHandlingDebugging
                 int num = Convert.ToInt32(Console.ReadLine());
 
                 // Divides product by given number and returns it as quotient
-                quotient = decimal.Divide(num, product);
+                quotient = decimal.Divide(product, num);
                 Console.WriteLine($"Quotient is {quotient}.");
             }
             catch (DivideByZeroException)
